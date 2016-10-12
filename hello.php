@@ -1,2 +1,1 @@
-
-Yo!
+<?php echo "Hello vamvam";
