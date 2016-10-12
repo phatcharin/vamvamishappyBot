@@ -1,1 +1,3 @@
-<?php echo "Hello vamvam";
+<?php
+echo "My first PHP script!";
+?>
