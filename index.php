@@ -18,7 +18,7 @@ if (!is_null($events['events'])) {
 			
 			$textsent = $text;
 				
-			if ($text == 'hi') 
+			if (strtolower($text) == 'hi') 
 			{
 				$textsent = "Hey!!";
 			}
