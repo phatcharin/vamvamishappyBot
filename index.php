@@ -18,9 +18,9 @@ if (!is_null($events['events'])) {
 			
 			$textsent = $text;
 				
-			if (strtolower($text) == 'hi') 
+			if ($text) == 'hi') 
 			{
-				$textsent = "Hey!!";
+				$textsent = strtolower("Hey!!");
 			}
 
 			// Build message to reply back
