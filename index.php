@@ -16,7 +16,7 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			$textsent = strtolower($text);
+			$textsent = ucfirst(strtolower($text);
 				
 			if ($text) == 'hi') 
 			{
