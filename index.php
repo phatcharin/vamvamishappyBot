@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 				
 			if ($event['message']['text'] == 'hi' || $event['message']['text'] == 'Hi' || $event['message']['text'] == 'HI') 
 			{
-				$textsent = "Hey!!"
+				$textsent = "Hey!!";
 			}
 
 			// Build message to reply back
