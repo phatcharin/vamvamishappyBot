@@ -16,7 +16,7 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			$textsent = $text
+			$textsent = $text;
 				
 			if ($event['message']['text'] == 'hi' || $event['message']['text'] == 'Hi' || $event['message']['text'] == 'HI') 
 			{
