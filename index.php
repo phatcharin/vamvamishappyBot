@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			$textsent = $text;
-			$User = $event['source']['userId'];
+			$User = $event['source']['displayName'];
 			if (strtolower($text) == 'hi') 
 			{
 				$textsent = "Hi ".$User;
