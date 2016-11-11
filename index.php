@@ -17,10 +17,10 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			$textsent = $text;
-				
+			$User = $event['source']['userId'];
 			if (strtolower($text) == 'hi') 
 			{
-				$textsent = "Hi"+ $event['source']['userId'];
+				$textsent = "Hi "+ $User;
 			}
 
 			// Build message to reply back
