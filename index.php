@@ -21,7 +21,7 @@ if (!is_null($events['events'])) {
 			$User = $event['source']['displayName'];
 			if (strtolower($text) == 'hi') 
 			{
-				$textsent = "Hi ".$User;
+				$textsent = $events['events'];
 			}
 
 			// Build message to reply back
@@ -54,4 +54,3 @@ if (!is_null($events['events'])) {
 	}
 }
 echo "OK";
-echo $events['events'];
