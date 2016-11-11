@@ -18,7 +18,7 @@ if (!is_null($events['events'])) {
 			
 			$textsent = $text
 				
-			if ($text == 'hi' || $text == 'Hi' || $text == 'HI') 
+			if ($event['message']['text'] == 'hi' || $event['message']['text'] == 'Hi' || $event['message']['text'] == 'HI') 
 			{
 				$textsent = "Hey!!"
 			}
