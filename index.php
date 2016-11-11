@@ -16,11 +16,11 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			$textsent = strtolower($text);
+			$textsent = $text;
 				
 			if ($text == 'hi') 
 			{
-				$textsent = "Hey!!";
+				$textsent = strtolower("Hey!!");
 			}
 
 			// Build message to reply back
