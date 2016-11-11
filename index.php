@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 				
 			if (strtolower($text) == 'hi') 
 			{
-				$textsent = "Hey!!";
+				$textsent = "Hi"+ $event['source']['userId'];
 			}
 
 			// Build message to reply back
